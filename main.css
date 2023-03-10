@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+}
+
+header .container {  
+    align-items: center;
+    max-width: 1366px;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul {
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(48, 226, 4);
+    padding: 12px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}
+
+.menu {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.menu-fechado {
+    justify-content: space-between;
+    padding-bottom: 8px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(58, 163, 32);
+    padding: 18px;
+    color: #fff;
+}
+
+.informacoes {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-right: 54px;
+    margin-left: 54px;
+    margin-top: 32px;
+    align-items: flex-end;
+}
+
+aside h2 {
+    border-bottom: solid 1px rgb(58, 163, 32);
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 48px;
+}
+
+section {
+    padding: 48px;
+}
+
+ul {
+    list-style: none;
+}
+
+#produtos > .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+#produtos h2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(58, 163, 32);
+    margin-bottom: 48px;
+    padding: 8px;
+    font-size: 48px;
+}
+
+
+.lista-produtos ul li {
+    width: 24.25%;
+    flex-wrap: wrap;
+}
+
+.lista-produtos img {
+    height: 200px;
+}
+
+.lista-produtos li {
+    max-width: 200px;
+}
+
+.lista-produtos h3 {
+    font-size: 20px;
+}
+
+.item-meio1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-meio2 {
+    margin-right: 10px;
+}
+
+.lista-produtos p {
+    font-size: 15px;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.lista-produtos button,
+form button {
+    width: 100%;
+    background-color: rgb(10, 180, 10);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lista-produtos button:hover,
+form button:hover {
+    background-color: rgb(12, 204, 12) ;
+}
+
+#contato h2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(58, 163, 32);
+    margin-bottom: 48px;
+    padding: 8px;
+    font-size: 48px;
+}
+
+#contato h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    font-size: 25px;
+}
+
+#contato > .container {
+    display: grid;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+#contato form {
+    display: grid;
+}
+
+#contato form input {
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 320px;
+}
+
+#contato form label {
+    padding: 8px 0;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: rgb(58, 163, 32);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer img {
+    height: 32px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer a p {
+    margin-right: 8px;
+}
+
+
+@media screen and (max-width: 641px) {
+    .conteudo {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .informacoes {
+        display: block;
+    }
+
+    #sobre {
+        display: block;
+    }
+
+    .lista-produtos {
+        display: block;
+    }
+
+    .lista-produtos ul {
+        display: block;
+    }
+
+    .lista-produtos ul li {
+        display: table-column;
+        margin-bottom: 30px;
+    }
+
+    .item-meio1 {
+        margin: 0;
+    }
+
+    aside h2 {
+        border-bottom: solid 1px rgb(58, 163, 32);
+        margin-bottom: 12px;
+        padding: 8px;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
