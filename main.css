@@ -252,7 +252,10 @@ footer a p {
 
     .lista-produtos ul li {
         display: table-column;
-        margin-bottom: 30px;
+    }
+
+    .lista-produtos button {
+        margin-bottom: 20px;
     }
 
     .item-meio1 {
