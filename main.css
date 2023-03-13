@@ -290,7 +290,6 @@ footer a p {
 
     #sobre {
         width: 100%;
-        
     }
 
     .image {
@@ -298,4 +297,62 @@ footer a p {
         display: flex;
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 1023px) {
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .conteudo {
+        display: block;
+    }
+
+    .informacoes {
+        display: block;
+    }
+    
+    .lista-produtos ul {
+        display: flex;
+    }
+
+    .image {
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .lista-produtos {
+        max-width: 100%;
+        flex-wrap: wrap;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lista-produtos ul {
+        display: flex;
+        justify-self: center;
+    }
+
+    .lista-produtos ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lista-produtos button {
+        margin-bottom: 20px;
+    }
+
+    .item-meio1 {
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+
+    .item-meio2 {
+        margin-right: 100px;
+    }
+    
 }
