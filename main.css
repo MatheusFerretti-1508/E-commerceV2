@@ -228,6 +228,7 @@ footer a p {
 @media screen and (max-width: 641px) {
     .conteudo {
         display: block;
+        width: 100%;
     }
 
     .container {
