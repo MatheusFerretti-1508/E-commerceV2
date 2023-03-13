@@ -236,7 +236,6 @@ footer a p {
 
     .informacoes {
         display: block;
-        width: 350px;
     }
 
     #sobre {
@@ -264,13 +263,12 @@ footer a p {
     }
 
     aside h2 {
-        border-bottom: solid 1px rgb(58, 163, 32);
-        margin-bottom: 12px;
-        padding: 8px;
-        font-size: 48px;
         display: flex;
         justify-content: center;
-        width: 350px;
+        border-bottom: solid 1px rgb(58, 163, 32);
+        margin-bottom: 48px;
+        padding: 8px;
+        font-size: 48px;
     }
 
     header h1 {
@@ -278,7 +276,7 @@ footer a p {
     }
 
     main img {
-        width: 350px;
+        width: 280px;
     }
 
     footer {
@@ -289,4 +287,8 @@ footer a p {
         display: block;
     }
 
+    #sobre {
+        width: 100%;
+        
+    }
 }
