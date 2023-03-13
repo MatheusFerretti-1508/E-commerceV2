@@ -276,7 +276,7 @@ footer a p {
     }
 
     main img {
-        width: 280px;
+        width: 200%;
     }
 
     footer {
@@ -290,5 +290,11 @@ footer a p {
     #sobre {
         width: 100%;
         
+    }
+
+    .image {
+        max-width: 550px;
+        display: flex;
+        justify-content: center;
     }
 }
